@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06283D;
+}
+
+.container {
+    width: 400px;
+    height: 550px;
+    background-color: #fff;
+    color: #06283D;
+    padding: 28px 32px;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-box input {
+    width: 80%;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.search-box input::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.search-box i {
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.weather-box {
+    text-align: center;
+}
+
+.weather-box img {
+    width: 60%;
+    margin-top: 30px;
+}
+
+.weather-box .temperature {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 28px;
+} 
+
+.weather-box .description {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.weather-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 15px; 
+}
+
+.weather-details .humidity, .weather-details .wind {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    gap: 15px;
+}
+
+.weather-details span {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.weather-details p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.weather-details i {
+    font-size: 28px;
+}
+
+button {
+    background-color: #fff;
+}
+
+.none {
+    position: absolute;
+    display: none;
+    top: 0;
+}
